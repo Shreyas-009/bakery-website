@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!----------------- link ------------------>
+<link rel="stylesheet" href="Contact.css">
+<link rel="icon" href="images/logo.png" type="image/x-icon">
+<title>Bakery_Website</title>
+
+<!-------------- bootstrap 5.3 ------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!------------------- icon cdn -------------->
+<script src="https://kit.fontawesome.com/214482e118.js" crossorigin="anonymous"></script>
+
+</head>
+<body style="margin-top: 90px;">
+
+<!------------------------- up button --------------------->
+
+<a href="#section1"><i id="up" class="fa-solid fa-chevron-up"></i></a>
+
+<!------------------------ section 1 ------------------------->
+
+  <section id="section1">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-0">
+              <main>
+                <nav id="nav_bar" class="navbar navbar-expand-lg" style="background-color: rgb(30,25,22);" >
+                    <div class="container-fluid">
+                        <div class="logo"></div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="custome_cake.html">Custome cake</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="About_us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" style="color: rgba(255, 166, 0, 0.797);"aria-current="page" href="Contact.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>    
+</section>
+
+<!------------------- Section 2 ----------------->
+
+<section id="section2">
+  <div class="container p-5">
+    <div id="section2_in" class="row">
+      <div id="form" class="col-sm-0 col-lg-6 p-3 border border-1 border-black rounded-3">
+        <form>
+          <fieldset>
+            <legend style="font-weight: 600;margin-bottom: 30px;">Contact Us</legend>
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+                <label for="TextInput" class="form-label">First Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter first name">
+              </div>
+              <div class="col-lg-6 mb-3">
+                <label for="TextInput" class="form-label">Second Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter second name">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="TextInput" class="form-label">Email</label>
+              <input type="text" id="email" class="form-control" placeholder="Enter Email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea type="text" id="message" class="form-control" placeholder="Enter message..."></textarea>
+            </div>
+            <div id="btn1"><button type="submit" class="btn btn-primary">Submit</button></div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-sm-0 d-sm-none d-lg-block col-lg-6  p-0">
+        <img class="img-fluid img1"src="https://media.timeout.com/images/105947323/image.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <hr style="width:80%; margin:0; margin-left:10%; color:white;">
+</section>
+
+<!------------------- section 3 ----------------->
+
+<section id="section3">
+  <h1 class="text-center" style="color: rgb(247, 174, 40);">Contact Information</h1>
+  <div class="container pt-5 pb-5">
+      <div class="row">
+          <div class="col-lg-6">
+              <p><strong class="headings">Address :</strong> 123 confectionery lane,sugurville,CA</p>
+              <p><strong class="headings">Phone :</strong> +911234567</p>
+              <p><strong class="headings"> Email :</strong> abc@gmail.com</p>
+              <p>Welcome to sweet backery,where we turn every moment into a celebration with our delectable treates.Our passion for backing shin through in every bite and we take pride using the finest ingredients to create a flavors</p>
+      </div>
+      <div class="col-lg-6 pl-lg-5">
+          <h5 class="headings">Opening hours</h5>
+          <ul>
+              <li>Monday to Friday - 8:00AM to 6:00PM</li>
+              <li>Saturday - 9:00AM to 4:00PM</li>
+              <li>Sunday ( closed )</li>
+          </ul>
+          <h5>Follow us on social midea for the latest update and behind the scence peek:</h5>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+  </div>
+</section>
+<!------------------- footer ----------------->
+      
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-xl-4">
+        <img class="img-fluid mt-md-5 mt-lg-2 " style="height:100px;" src="images/logo.png" alt="Logo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ad laborum suscipit eligendi laudantium aspernatur magni ea libero fugiat cupiditate? Labore recusandae alias assumenda, numquam suscipit accusamus tempora voluptatibus deserunt!</p>
+        <ul id="icon_li" class="list-inline">
+          <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+      <div id="footer_list" class="col-lg-6 col-xl-3 mt-5 ">
+        <h2>Quick Links</h2>
+        <ul id="f_ul" class="list-unstyled">
+          <li><a href="#">About</a></li>
+          <li><a href="#section3">Service</a></li>
+          <li><a href="#section4">Gallery</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-12 col-xl-5 mt-5">
+        <h2 class="m-0 mb-3">Bakery Location</h2>
+        <div>
+          <iframe class="rounded-4 w-100" style="height:250px; border: 3px solid orange;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120637.9498952214!2d74.66027017683541!3d19.110466281536844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb05d46788921%3A0x6677e92c1a5181b6!2sAhmednagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1707735870661!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <hr>
+        <p class="text-center">Designed And Developed By Shreyas Tungar</p>
+      </div>
+    </div>
+  </div>
+</footer>     
+</body>
